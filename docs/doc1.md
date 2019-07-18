@@ -20,6 +20,7 @@ In this project your team will be a new retail web site called Purus. This web s
 1. Administration page to add Merchants and Shippers.
 2. Merchant page to add inventory
 3. A customer page that will
+
   1. Allow them to register themselves as a customer.
   2. Add a credit card to be used.
   2. Search for items to buy
