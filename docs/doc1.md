@@ -19,11 +19,11 @@ Modern development organizations focus as much on collaboration as the generatio
 In this project your team will be a new retail web site called Purus. This web site will connect different Merchants with clients. You will design and implement three interfaces:
 1. Administration page to add Merchants and Shippers.
 2. Merchant page to add inventory
-3. A customer page that will
-  * Allow them to register themselves as a customer.
-  * Add a credit card to be used.
-  * Search for items to buy
-  * Purchase an Item
+3. A customer page that will:
+    1. Allow them to register themselves as a customer.
+    2. Add a credit card to be used.
+    3. Search for items to buy
+    4. Purchase an Item
 
 You will rely on a set of ReST based services that will provide you with the business components that you can use to perform functions: (For example: search for an item, or buy this item). The data will be returned to you as JSON objects or arrays of JSON objects.  Since the services will provide the business functionality, you will be able to focus on what it takes to build the site.
 
