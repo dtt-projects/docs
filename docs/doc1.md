@@ -42,3 +42,5 @@ The Retail services you will need will be found on a developer portal: https://o
 ## There is more stuff to write here
 I am just not sure what. I wanted to get some stuff started so we can begin the process.
 
+## Test heading
+Remove this at some point, testing travis ci configuration to publish to github pages
