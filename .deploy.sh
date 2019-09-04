@@ -11,7 +11,7 @@ GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD);
 DEFAULT_GH_USERNAME="dtt-projects";
 DEFAULT_GH_HOST="github.com"
 
-# Read in the Github username to use for this deployment.
+# Read in the Github username/host to use for this deployment.
 
 read -p "GitHub username for deployment (Hit <enter> for default: $DEFAULT_GH_USERNAME): " GH_USERNAME
 read -p "GitHub host for deployment (Hit <enter> for default: $DEFAULT_GH_HOST): " GH_HOST
@@ -36,6 +36,8 @@ fi
 # Move to correct subdirectory.
 
 cd $CURRENT_DIR/$SOURCE_DIR;
+
+# Install packages and run the "publish" built-in script.
 
 yarn;
 yarn run publish-gh-pages;
