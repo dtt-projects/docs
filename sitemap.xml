@@ -14,7 +14,8 @@
 <url> <loc>https://pages.github.com/docs/docs/doc5</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/doc5" /> </url>
 <url> <loc>https://pages.github.com/docs/docs/intro_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/intro_overview" /> </url>
 <url> <loc>https://pages.github.com/docs/docs/intro_project_goals</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/intro_project_goals" /> </url>
-<url> <loc>https://pages.github.com/docs/docs/skills</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/skills" /> </url>
+<url> <loc>https://pages.github.com/docs/docs/skills_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/skills_overview" /> </url>
 <url> <loc>https://pages.github.com/docs/docs/skills_scripting</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/skills_scripting" /> </url>
 <url> <loc>https://pages.github.com/docs/docs/skills_web_dev</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/skills_web_dev" /> </url>
+<url> <loc>https://pages.github.com/docs/docs/tools_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pages.github.com/docs/docs/tools_overview" /> </url>
 </urlset>
