@@ -14,32 +14,32 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    // image: '/img/undraw_open_source.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://pages.github.ibm.com', // Your website URL
-  baseUrl: '/zDTT/docs/', // Base URL for your project */
+  title: 'Sprout Creek Farm Retail Site', // Title for your website.
+  tagline: 'Project Resources Documentation',
+  url: 'https://pages.github.com', // Your website URL
+  baseUrl: '/marist-project/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: 'docs',
-  organizationName: 'zDTT',
+  organizationName: 'dTT',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'intro_overview', label: 'Docs'},
+    {doc: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
     // {blog: false, label: 'Blog'},
   ],
@@ -48,21 +48,21 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
+  headerIcon: 'img/marist_icon.png',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#ac42a2',
-    secondaryColor: '#782e71',
+    primaryColor: '#C8102E',
+    secondaryColor: '#000',
   },
 
   /* Custom fonts for website */
-  /*
+ 
   fonts: {
     myFont: [
-      "Times New Roman",
+      "Helvetica",
       "Serif"
     ],
     myOtherFont: [
@@ -70,10 +70,9 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  // copyright: `Copyright © ${new Date().getFullYear()} IBM`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
