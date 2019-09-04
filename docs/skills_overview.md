@@ -1,10 +1,7 @@
 ---
-id: skills
+id: skills_overview
 title: General Skillset to Have
 ---
-
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
 
 ## What is ReST?
 

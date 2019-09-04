@@ -1,6 +1,6 @@
 ---
 id: intro_project_goals
-title: introduction_task
+title: Project Goals
 sidebar_label: Project Goals
 ---
 

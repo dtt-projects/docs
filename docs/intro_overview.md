@@ -14,6 +14,8 @@ This project is aimed at creating a solution that embraces an agile development 
 
 Just as it sounds, DevOps is a set of tooling that bridges the traditional gap between Developemt and Operations. This tooling uses a set of tools that have become the defacto standard for repository and provisioning orchestration. Code resides in a source code manager (like GIT) and is processed and deployed into server environments by a chain of tools managed by automation server (like Jenkins). GIT and Jenkins are open source standard servers in this environment. The project will leverage these tools to help support an agile development process.
 
+In order to make sure your team is not held up by any configuration or set up issues with the server and to ensure you are all spending more time coding than debugging annoying deployment issues, we have preconfigured a `Jenkins` pipeline to deploy to a range of ports (`9500` - `9524`, inclusive) when running in production. Your team will use this pipeline, which gets triggered automatically after pushing code to GitHub, and still have to edit parts of the [`Jenkinsfile`](https://github.com/dtt-projects/marist-retail-app/blob/master/jenkins/Jenkinsfile) to fit the team's needs.
+
 ## API Services Provided
 
 We have provided a set of APIs for you to manage users and their information, purchases, 

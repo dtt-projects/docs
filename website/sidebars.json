@@ -1,7 +1,7 @@
 {
   "docs": {
     "Project Overview": ["intro_overview", "intro_project_goals"],
-    "Skills to Have": ["skills_overview", "skills_web_dev", "skills_scripting"],
+    "Skills and Tools": ["tools_overview", "skills_overview", "skills_web_dev", "skills_scripting"],
     "APIs To Be Used": ["api"],
     "Additional Help and Contact": ["contact"]
   },
