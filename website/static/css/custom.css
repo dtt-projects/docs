@@ -10,9 +10,15 @@
 }
 
 .projectLogo > img {
-    width: 40%;
-    height: 40%;
+    padding-top: 7%;
+    width: 25%;
+    height: 25%;
     min-width: 120px;
+    
+}
+
+.projectTitle {
+    color: black;
 }
 
 .homeContainer {
@@ -21,6 +27,11 @@
 
 .fixedHeaderContainer {
     min-height: 75px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.blockContent {
+    text-align: left;
 }
 
 .wrapper {
