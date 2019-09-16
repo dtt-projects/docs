@@ -16,14 +16,12 @@ Just as it sounds, DevOps is a set of tooling that bridges the traditional gap b
 
 In order to make sure your team is not held up by any configuration or set up issues with the server and to ensure you are all spending more time coding than debugging annoying deployment issues, we have preconfigured a `Jenkins` pipeline to deploy to a range of ports (`9500` - `9524`, inclusive) when running in production. Your team will use this pipeline, which gets triggered automatically after pushing code to GitHub, and still have to edit parts of the [`Jenkinsfile`](https://github.com/dtt-projects/marist-retail-app/blob/master/jenkins/Jenkinsfile) to fit the team's needs.
 
+## The Code
+
+A server repository has already been created for you [here](https://github.com/dtt-projects/retail-app). Please visit this GitHub page and read through the entire `README`. It covers how to install the project dependencies, run your server, and deploy production code.
+
 ## API Services Provided
 
 We have provided a set of APIs for you to manage users and their information, purchases, 
 
-The API services you will need will be found on a [developer portal here](https://sb-lasermusibmcom-dev.developer.us.apiconnect.ibmcloud.com/). You will need to create an account to use the services. You will also need to define an application that will be using these services. Step by step instructures to do this can be found here. 
-
-## There is more stuff to write here
-I am just not sure what. I wanted to get some stuff started so we can begin the process.
-
-## Test heading
-Remove this at some point, testing travis ci configuration to publish to github pages
+The API services you will need will be found on a [developer portal here](https://sb-lasermusibmcom-dev.developer.us.apiconnect.ibmcloud.com/). You will need to create an account to use the services. You will also need to define an application that will be using these services. Step by step instructures to do this can be found here.

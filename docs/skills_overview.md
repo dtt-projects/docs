@@ -3,10 +3,25 @@ id: skills_overview
 title: General Skillset to Have
 ---
 
-## What is ReST?
+## General Developer Skills to Know
 
-ReST is an architectural style that provides lightweight Create, Read, Update, Delete (CRUD) capabilities. Unlike SOAP which is heavyweight and requires a lot of governance defined from the outset, ReST is focused on providing simple to use verbs that provide CRUD capabilities. The format of ReST requests follows the same style as web forms that traditionally designed inside of web pages. Because it follows the http standard, it is very easy to pick up and obviates the need for the transport data to be concerned with the format of the data. ReST is a prevalent protocol in web development. More information on ReST can be found at: https://en.wikipedia.org/wiki/Representational_state_transfer
+There are several skills you'll need to work on this project effectively. Below is an introduction (or recap, if you're familiar with web development) of these skills.
 
-## What is JSON?
+### Working Together
 
-JavaScript Object Notation or JSON is a lightweight data interchange format. Like the title says it is easily manipulated in Javascript as well as other languages like Python, Java, and varients of the Java language (like Groovy). JSON objects are generally made of of named value pairs and Arrays. Name value paired items are focused on connecting a value with some name for easy retrieval. Thus a JSON object with the named value pair of "Name" : "Chris Algozzine" would connect the string Chris Algozzine with Name. Add to this the ability to put a grouping of these oredered name pairs into an array and you can represent a diverse set of data. More information on JSON can be found at: https://en.wikipedia.org/wiki/JSON
+For the team lead and developers in the group, it's important to make sure everyone is coordinated on the tasks at hand. There is a great [Stack Overflow](https://stackoverflow.com/questions/3000190/how-do-programmers-work-together-on-a-project) answer on best strategies for working on a project in teams that you should check out and adopt to your choosing. You may also choose a cadence to meet up with each other to discuss progress made towards the project. If you do, conducting a [scrum meeting](https://www.projectmanager.com/blog/how-to-run-a-great-scrum-meeting) may be highly beneficial. This is just a particular way of organizing daily/weekly meetings, but is in no way a requirement to getting this project done well.
+
+### Git Best Practices
+
+[Git](https://git-scm.com/) is an incredibly powerful source code manager used by almost every major software development company in the world. Knowing how to use it properly is incredibly important, and will serve you well not just for this project, but for future work opportunities as well.
+
+Some helpful resources to start:
+* [Introduction](https://try.github.io/)
+* [No-frills Git Tutorial](https://learnxinyminutes.com/docs/git/)
+* [Best Practices](https://sethrobertson.github.io/GitBestPractices/#read)
+* [Learn Git as a Course](https://www.katacoda.com/courses/git)
+* [Git-ing Deeper](http://gitready.com/)
+
+### What to do When You're Stuck
+
+Every developer, no matter how great or smart they are, will eventually run into a roadblock. If you have a specific problem with something that has been provided to you by IBM, i.e. the APIs or the `Jenkins` pipeline, please feel free to create a GitHub issue and tag our username, `dtt-projects`, or to [email us directly](mailto:laserm@us.ibm.com). If you are having problems with the language (JavaScript) or anything related to actual development, `Stack Overflow` and `Google` are your best bet to finding an answer quickly. Having to search for an answer online is extremely common in the industry and does __not__ make you any less of a software developer! If all else fails, we are here to provide support.
